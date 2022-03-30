@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  color: #A63EC5;
+  text-align: center;
+}
+
+.top-text {
+  font-size: 0.625rem;
+  color: #F7E2E2;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 500px) {
+
+  #root,
+  body {
+    font-size: 1.125rem;
+    display: flex;
+  }
+
+   #root {
+     flex-grow: 1;
+  
+  }
+
+  body>#root>div {
+    height: 100vh;
+  }
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
