@@ -96,6 +96,7 @@ img {
 }
 
 
+
 /* time cointainer */
 
 .time-display {
@@ -113,16 +114,16 @@ img {
 
 /* media-queries*/
 
-@media (min-width: 500px) and (min-height: 100%) {
+@media (min-width: 500px) {
   .time-display {
     font-size: 7rem;
   }
 
   .play-background {
-    padding: 30px 30px;
+    padding: 20px 20px;
   }
 
   img {
-    max-width: 100%;
+    max-width: 90%;
   }
 }
