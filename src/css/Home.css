@@ -110,9 +110,18 @@ p {
 
 /* media queries */
 
-@media (min-width: 500px) {
+@media (min-width: 500px) and (min-height: 100%) {
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 
   .main-content {
+    border-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
