@@ -1,7 +1,7 @@
-/* text */ 
+/* text */
 
 h1 {
-  color: #39AEA9;
+  color: #39aea9;
   font-weight: 900;
   font-size: 2rem;
   text-transform: uppercase;
@@ -12,14 +12,14 @@ h1 {
 h3 {
   font-size: 0.9rem;
   margin: 0;
-  color: #557B83;
+  color: #557b83;
   font-weight: 400;
 }
 
 p {
   font-weight: 600;
   font-size: 0.8rem;
-  color: #557B83;
+  color: #557b83;
   margin-top: 20px;
   text-transform: uppercase;
   margin-bottom: 0;
@@ -28,14 +28,14 @@ p {
 .top-text {
   font-size: 10px;
   margin-top: 0.5rem;
-  color: #E5EFC1;
+  color: #e5efc1;
 }
 
 /* intro */
 
 .intro {
-  background-color: #557B83;
-  background-image: url(../images/stones.jpg);
+  background-color: #557b83;
+  background-image: url('/public/images/stones.jpg');
   background-size: cover;
   background-position: center;
   padding: 0 0.5em 2em;
@@ -43,16 +43,26 @@ p {
 
 /* main */
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .main-content {
   padding: 2em 1em;
-  background-color: #A2D5AB;
+  background-color: #a2d5ab;
   background-size: cover;
   background-position: center;
   padding: 0 0.5em 2em;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.intro>*,
-.main-content>* {
+.intro > *,
+.main-content > * {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -68,6 +78,10 @@ p {
   flex-direction: column;
   justify-content: space-between;
   min-height: 50vh;
+}
+
+.intro {
+  flex-grow: 1;
 }
 
 /* buttons */
@@ -96,8 +110,8 @@ p {
 }
 
 .btn-primary {
-  background: #39AEA9;
-  color: #E5EFC1;
+  background: #39aea9;
+  color: #e5efc1;
   font-family: 'Karla', sans-serif;
   transform: scale(1);
   transition: transform 250ms;
@@ -111,13 +125,17 @@ p {
 /* media queries */
 
 @media (min-width: 500px) {
-
-   h1 {
+  h1 {
     font-size: 1.75rem;
   }
 
   p {
     font-size: 1rem;
+  }
+
+  .home-container {
+    display: flex;
+    flex-direction: row;
   }
 
   .main-content {

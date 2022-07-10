@@ -1,38 +1,20 @@
 body {
   margin: 0;
-  font-family: "Karla", sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 1rem;
-  color: #A63EC5;
+  color: #a63ec5;
   text-align: center;
 }
 
 .top-text {
   font-size: 0.625rem;
-  color: #F7E2E2;
+  color: #f7e2e2;
   font-weight: 900;
   text-transform: uppercase;
   margin: 0;
   padding-top: 3px;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media (min-width: 500px) {
-
-  #root,
-  body {
-    font-size: 1.125rem;
-    display: flex;
-  }
-
-   #root {
-     flex-grow: 1;
-  
-  }
-
-  body>#root>div {
-    height: 100vh;
-  }
 }
 
 *,
