@@ -1,9 +1,9 @@
-import Home from './pages/Home'
-import Timer from './pages/Timer'
+import Home from './pages/Home/Home'
+import Timer from './pages/Timer/Timer'
 import ErrorPage from './pages/ErrorPage'
 
-import   './css/Timer.css'
-import   './css/Home.css'
+import   './pages/Timer/Timer.css'
+import   './pages/Home/Home.css'
 
 import { Route, Routes} from 'react-router-dom'
 
